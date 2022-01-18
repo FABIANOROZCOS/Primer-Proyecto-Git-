@@ -1,0 +1,49 @@
+Git Conceptos
+
+siempre esta divido en tres capas:
+
+1. Working directory = Donde se trabaja con todos los archivos
+2. staging area = donde tengo las versiones de mis cambios
+3. repository =
+
+
+pwd = para ver en que directorios se encuentra
+Comandos Git
+
+git init
+git config --global use.name opcional
+git config --global use.email opcional
+git add (Nombre del archivo) o git add . (para agregar todos los archivos)
+git status
+git comit -m "mensaje"
+git push -u origin + (nombre de la rama (master))= subir los cambios al repositorio remoto
+git pull -u origin + (nombre de la rama (master))= traer los cambios de los demas desarrollos
+git clone = clonar el repositorio Original
+git log = para mirar el historial de cambios del comit
+git log --oneline = lo mismo del anterior pero muestra el informe mas compacto.
+git diff = me muestra los cambios que ha tenido mi archivo
+git restore --staged (nombre del archivo) para removerlo de un comit
+git restore . para remover cambios que no se encuentran en un comit
+git checkout (para moverme entre comit)
+git checkout master (me devuelve a la primera versión)
+git checkout --(nombre del archivo)=  me descarta cambios
+
+-------------------------
+como crear una rama
+git branch  + nombre de la rama
+git switch nombre de la rama origen(para moverme entre las ramas creadas)
+git switch nombre de la rama destino
+git merge + el nombre de la rama destino
+git log --oneline --graph
+git remote add origin + url
+
+git ignore + nombre de la rama
+
+
+---------------------------------
+
+Fork = es un proyectp basado en otro.
+
+
+
+
